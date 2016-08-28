@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 
-@Component
+//@Component
 public class MockMailSender implements MailSender{
 	
 	private static final Log log = LogFactory.getLog(MockMailSender.class);

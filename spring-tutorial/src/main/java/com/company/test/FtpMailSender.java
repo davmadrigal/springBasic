@@ -7,8 +7,7 @@ import org.springframework.stereotype.Component;
 
 import com.company.spring.tutorial.mail.MailSender;
 
-@Qualifier("ftp")
-@Component
+
 public class FtpMailSender implements MailSender{
 	
 	private static final Log log = LogFactory.getLog(FtpMailSender.class);

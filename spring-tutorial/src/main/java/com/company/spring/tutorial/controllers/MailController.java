@@ -34,8 +34,8 @@ public class MailController {
 	 * in fact, with SpringBoot 1.4, with a single constructor, Spring will automatically autowire its parameters
 	 * @param mailSender 
 	 */
-	@Autowired
-	public MailController(@Qualifier("ftp") MailSender mailSender){
+	//@Autowired
+	public MailController(@Qualifier("ftpMailSender") MailSender mailSender){
 		this.mailSender = mailSender;
 	}
 	
