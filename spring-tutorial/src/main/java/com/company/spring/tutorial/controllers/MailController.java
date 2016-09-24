@@ -35,7 +35,7 @@ public class MailController {
 	 * @param mailSender 
 	 */
 	//@Autowired
-	public MailController(@Qualifier("ftpMailSender") MailSender mailSender){
+	public MailController( MailSender mailSender){
 		this.mailSender = mailSender;
 	}
 	
