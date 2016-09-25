@@ -18,15 +18,15 @@ public class SpringTutorialApplication {
 	public static void main(String[] args) {
 		ApplicationContext ctx = SpringApplication.run(SpringTutorialApplication.class, args);
 		
-		logger.info("Beans in application context:");
-		
-		String[] beanNames = ctx.getBeanDefinitionNames();
-		
-		Arrays.sort(beanNames);
-		
-		for (String bean: beanNames){
-			logger.info(bean);
-		}
+//		logger.info("Beans in application context:");
+//		
+//		String[] beanNames = ctx.getBeanDefinitionNames();
+//		
+//		Arrays.sort(beanNames);
+//		
+//		for (String bean: beanNames){
+//			logger.info(bean);
+//		}
 		
 	}
 }
